@@ -1,0 +1,1114 @@
+--SnyxisHub made by Im_Snyxis#7777
+-- V4
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local whitelist = Instance.new("TextLabel")
+local Load = Instance.new("TextButton")
+local WriteUrName = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+local Open = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local Gui = Instance.new("Frame")
+local About = Instance.new("Frame")
+local AboutInfo = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Infomisc = Instance.new("TextLabel")
+local Infomisc_2 = Instance.new("TextLabel")
+local Infomisc_3 = Instance.new("TextLabel")
+local CloseAbout = Instance.new("TextButton")
+local Logo = Instance.new("Frame")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Aboutpage = Instance.new("TextButton")
+local TrainingScripts = Instance.new("TextButton")
+local Adminpage = Instance.new("TextButton")
+local PlayerScripts = Instance.new("TextButton")
+local AdminScriptsGUi = Instance.new("Frame")
+local CMDX = Instance.new("TextButton")
+local InfYield = Instance.new("TextButton")
+local Reviz = Instance.new("TextButton")
+local FatestAdmin = Instance.new("TextButton")
+local Cbring = Instance.new("TextButton")
+local CloseAdmin = Instance.new("TextButton")
+local PlayerScripts_2 = Instance.new("Frame")
+local Rejoin = Instance.new("TextButton")
+local RepScript = Instance.new("TextButton")
+local StopAutoAttack = Instance.new("TextButton")
+local AutoAttack = Instance.new("TextButton")
+local StopPPALL = Instance.new("TextButton")
+local PPALL = Instance.new("TextButton")
+local LoopReap = Instance.new("TextButton")
+local DestroyGui = Instance.new("TextButton")
+local StopLoopReap = Instance.new("TextButton")
+local NameOfPlayer = Instance.new("TextBox")
+local RepScript_2 = Instance.new("TextButton")
+local LoopHellFire = Instance.new("TextButton")
+local SpamVoid = Instance.new("TextButton")
+local StopRespawn = Instance.new("TextButton")
+local DestroyGui_2 = Instance.new("TextButton")
+local F1Respawn = Instance.new("TextButton")
+local ClosePlayer = Instance.new("TextButton")
+local TrainScripts = Instance.new("Frame")
+local Split = Instance.new("TextButton")
+local BlackHub = Instance.new("TextButton")
+local ComingSoon = Instance.new("TextLabel")
+local Nothing = Instance.new("TextLabel")
+local FastFist = Instance.new("TextLabel")
+local FastBt = Instance.new("TextLabel")
+local CloseTrain = Instance.new("TextButton")
+local CloseGui = Instance.new("TextButton")
+local AdminOnly = Instance.new("TextButton")
+local AdminOnly_2 = Instance.new("Frame")
+local FastPP = Instance.new("TextLabel")
+local FastBt_2 = Instance.new("TextLabel")
+local BackroundColor = Instance.new("TextLabel")
+local COLOR = Instance.new("TextLabel")
+local COLOR_2 = Instance.new("TextLabel")
+local COLOR_3 = Instance.new("TextLabel")
+local COLOR_4 = Instance.new("TextLabel")
+local COLOR_5 = Instance.new("TextLabel")
+local ButtonColor = Instance.new("TextLabel")
+local COLOR_6 = Instance.new("TextLabel")
+local COLOR_7 = Instance.new("TextLabel")
+local COLOR_8 = Instance.new("TextLabel")
+local COLOR_9 = Instance.new("TextLabel")
+local COLOR_10 = Instance.new("TextLabel")
+local PayFor50RBX = Instance.new("TextLabel")
+local ComingSoon_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.392386526, 0, 0.423255801, 0)
+Frame.Size = UDim2.new(0, 294, 0, 185)
+Frame.Visible = true
+
+whitelist.Name = "whitelist"
+whitelist.Parent = Frame
+whitelist.BackgroundColor3 = Color3.fromRGB(69, 67, 68)
+whitelist.BackgroundTransparency = 0.400
+whitelist.BorderColor3 = Color3.fromRGB(0, 0, 255)
+whitelist.Position = UDim2.new(0, 0, -0.00540540554, 0)
+whitelist.Size = UDim2.new(0, 294, 0, 135)
+whitelist.Font = Enum.Font.SourceSans
+whitelist.Text = "WhiteListed ??"
+whitelist.TextColor3 = Color3.fromRGB(0, 0, 255)
+whitelist.TextSize = 50.000
+
+Load.Name = "Load"
+Load.Parent = Frame
+Load.BackgroundColor3 = Color3.fromRGB(69, 67, 68)
+Load.BackgroundTransparency = 0.900
+Load.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Load.Position = UDim2.new(0.408163279, 0, 0.540540516, 0)
+Load.Size = UDim2.new(0, 53, 0, 35)
+Load.Font = Enum.Font.SourceSans
+Load.Text = "LOAD"
+Load.TextColor3 = Color3.fromRGB(0, 0, 0)
+Load.TextSize = 21.000
+Load.MouseButton1Down:connect(function()
+	if WriteUrName.Text == "slt51perohackeado2"  then
+		whitelist.Text = "Welcome slt51perohackeado2"
+		wait(2)
+		Frame.Visible = false
+		Open.Visible = true
+	elseif WriteUrName.Text == "Ultimet_Frayzer"  then
+		whitelist.Text = "Welcome Ultimet_Frayzer"
+		wait(2)
+		Frame.Visible = false
+		Open.Visible = true
+	elseif WriteUrName.Text == "ROYALM150NINJA"  then
+		whitelist.Text = "Welcome ROYALM150NINJA"
+		wait(2)
+		Frame.Visible = false
+		Open.Visible = true
+	elseif WriteUrName.Text == "UnusualIUsername"  then
+		whitelist.Text = "Welcome UnusualIUsername"
+		wait(2)
+		Frame.Visible = false
+		Open.Visible = true
+	elseif WriteUrName.Text == "sacha1456"  then
+		whitelist.Text = "Welcome sacha1456"
+		wait(2)
+		Frame.Visible = false
+		Open.Visible = true
+	elseif WriteUrName.Text == "GELADS09"  then
+		whitelist.Text = "Welcome GELADS09"
+		wait(2)
+		Frame.Visible = false
+		Open.Visible = true
+	elseif WriteUrName.Text == "ZeroBrainCe1ls"  then
+		whitelist.Text = "Welcome ZeroBrainCe1ls"
+		wait(2)
+		Frame.Visible = false
+		Open.Visible = true
+	elseif WriteUrName.Text == "xqVerdexityy"  then
+		whitelist.Text = "Welcome xqVerdexityy"
+		wait(2)
+		Frame.Visible = false
+		Open.Visible = true
+	elseif WriteUrName.Text == "Mr_LumiYtALT"  then
+		whitelist.Text = "Welcome Mr_LumiYtALT"
+		wait(2)
+		Frame.Visible = false
+		Open.Visible = true
+	elseif WriteUrName.Text == "xXxProfesorGhostxXx"  then
+		whitelist.Text = "Welcome xXxProfesorGhostxXx"
+		wait(2)
+		Frame.Visible = false
+		Open.Visible = true
+		
+	end
+end)
+
+WriteUrName.Name = "WriteUrName"
+WriteUrName.Parent = Frame
+WriteUrName.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+WriteUrName.BackgroundTransparency = 0.400
+WriteUrName.BorderColor3 = Color3.fromRGB(0, 0, 127)
+WriteUrName.Position = UDim2.new(0, 0, 0.729729712, 0)
+WriteUrName.Size = UDim2.new(0, 294, 0, 50)
+WriteUrName.Font = Enum.Font.SourceSans
+WriteUrName.PlaceholderColor3 = Color3.fromRGB(0, 0, 255)
+WriteUrName.PlaceholderText = "WriteUrName"
+WriteUrName.Text = ""
+WriteUrName.TextColor3 = Color3.fromRGB(0, 0, 255)
+WriteUrName.TextSize = 40.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Size = UDim2.new(0, 32, 0, 22)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "x"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 50.000
+TextButton.MouseButton1Down:connect(function()
+	Frame.Visible = false 
+end)
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Open.BorderSizePixel = 2
+Open.Position = UDim2.new(0, 0, 0.691472888, 0)
+Open.Size = UDim2.new(0, 101, 0, 50)
+Open.Visible = false
+
+TextButton_2.Name = ""
+TextButton_2.Parent = Open
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 255)
+TextButton_2.BorderSizePixel = 2
+TextButton_2.Position = UDim2.new(0.00990104675, 0, 0.0199999996, 0)
+TextButton_2.Size = UDim2.new(0, 100, 0, 49)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "SnXHub"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextButton_2.TextSize = 32.000
+TextButton_2.MouseButton1Down:connect(function()
+	Gui.Visible = true 
+end)
+
+
+ImageLabel.Parent = TextButton_2
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(-0.00999999978, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 99, 0, 48)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7976426412"
+ImageLabel.ImageColor3 = Color3.fromRGB(0, 0, 255)
+
+Gui.Name = "Gui"
+Gui.Parent = ScreenGui
+Gui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Gui.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Gui.BorderSizePixel = 2
+Gui.Position = UDim2.new(0.251798421, 0, 0.162790745, 0)
+Gui.Size = UDim2.new(0, 678, 0, 467)
+Gui.Visible = false
+Gui.Draggable = true
+Gui.Active = true
+Gui.Selectable = true
+
+About.Name = "About"
+About.Parent = Gui
+About.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+About.BorderColor3 = Color3.fromRGB(0, 0, 127)
+About.BorderSizePixel = 2
+About.Position = UDim2.new(0.181197807, 0, 0, 0)
+About.Size = UDim2.new(0, 555, 0, 466)
+About.Visible = false
+
+AboutInfo.Name = "About Info"
+AboutInfo.Parent = About
+AboutInfo.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+AboutInfo.BorderColor3 = Color3.fromRGB(0, 0, 255)
+AboutInfo.BorderSizePixel = 2
+AboutInfo.Size = UDim2.new(0, 555, 0, 68)
+AboutInfo.Font = Enum.Font.SourceSans
+AboutInfo.Text = "SnyxisHub"
+AboutInfo.TextColor3 = Color3.fromRGB(0, 0, 0)
+AboutInfo.TextSize = 70.000
+
+ImageLabel_2.Parent = About
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(102, 99, 99)
+ImageLabel_2.Size = UDim2.new(0, 128, 0, 68)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=7976426412"
+ImageLabel_2.ImageColor3 = Color3.fromRGB(0, 0, 127)
+
+Infomisc.Name = "Info misc"
+Infomisc.Parent = About
+Infomisc.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+Infomisc.BackgroundTransparency = 1.000
+Infomisc.Position = UDim2.new(0.0162162166, 0, 0.196682468, 0)
+Infomisc.Size = UDim2.new(0, 538, 0, 83)
+Infomisc.Font = Enum.Font.SourceSans
+Infomisc.Text = "Welcome To SnyxisHub"
+Infomisc.TextColor3 = Color3.fromRGB(0, 0, 0)
+Infomisc.TextSize = 42.000
+
+Infomisc_2.Name = "Info misc"
+Infomisc_2.Parent = About
+Infomisc_2.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+Infomisc_2.BackgroundTransparency = 1.000
+Infomisc_2.Position = UDim2.new(0.0144144148, 0, 0.400474012, 0)
+Infomisc_2.Size = UDim2.new(0, 538, 0, 125)
+Infomisc_2.Font = Enum.Font.SourceSans
+Infomisc_2.Text = ". New Update : Spam Void , New panel ..."
+Infomisc_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Infomisc_2.TextSize = 32.000
+
+Infomisc_3.Name = "Info misc"
+Infomisc_3.Parent = About
+Infomisc_3.BackgroundColor3 = Color3.fromRGB(102, 99, 99)
+Infomisc_3.BackgroundTransparency = 1.000
+Infomisc_3.Position = UDim2.new(0.0144144148, 0, 0.677725196, 0)
+Infomisc_3.Size = UDim2.new(0, 538, 0, 125)
+Infomisc_3.Font = Enum.Font.SourceSans
+Infomisc_3.Text = "Protection : ON                                    Im_Snyxis#7777"
+Infomisc_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Infomisc_3.TextSize = 32.000
+
+CloseAbout.Name = "Close About"
+CloseAbout.Parent = About
+CloseAbout.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseAbout.BackgroundTransparency = 1.000
+CloseAbout.Position = UDim2.new(0.947747767, 0, 0, 0)
+CloseAbout.Size = UDim2.new(0, 28, 0, 29)
+CloseAbout.Font = Enum.Font.SourceSans
+CloseAbout.Text = "x"
+CloseAbout.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseAbout.TextSize = 32.000
+CloseAbout.MouseButton1Down:connect(function()
+	About.Visible = false
+	Logo.Visible = true 
+	CloseGui.Visible = true
+end)
+
+Logo.Name = "Logo"
+Logo.Parent = Gui
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.Size = UDim2.new(0, 678, 0, 467)
+Logo.Visible = true 
+
+ImageLabel_3.Parent = Logo
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Position = UDim2.new(0.185840711, 0, 0, 0)
+ImageLabel_3.Size = UDim2.new(0, 552, 0, 466)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=7976426412"
+ImageLabel_3.ImageColor3 = Color3.fromRGB(0, 0, 255)
+
+TextLabel.Parent = Logo
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel.BorderSizePixel = 2
+TextLabel.Size = UDim2.new(0, 126, 0, 467)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+Aboutpage.Name = "About page"
+Aboutpage.Parent = Gui
+Aboutpage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Aboutpage.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Aboutpage.BorderSizePixel = 2
+Aboutpage.Position = UDim2.new(0.00908844732, 0, 0.0309050456, 0)
+Aboutpage.Size = UDim2.new(0, 104, 0, 73)
+Aboutpage.Font = Enum.Font.SourceSans
+Aboutpage.Text = "About"
+Aboutpage.TextColor3 = Color3.fromRGB(0, 0, 255)
+Aboutpage.TextSize = 34.000
+Aboutpage.MouseButton1Down:connect(function()
+	About.Visible = true
+	Logo.Visible = false
+	CloseGui.Visible = false 
+	AdminScriptsGUi.Visible = false
+	PlayerScripts_2.Visible = false
+	TrainScripts.Visible = false
+	AdminOnly_2.Visible = false
+end)
+
+TrainingScripts.Name = "Training Scripts "
+TrainingScripts.Parent = Gui
+TrainingScripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TrainingScripts.BorderColor3 = Color3.fromRGB(0, 0, 255)
+TrainingScripts.BorderSizePixel = 2
+TrainingScripts.Position = UDim2.new(0.00908844732, 0, 0.611027658, 0)
+TrainingScripts.Size = UDim2.new(0, 104, 0, 73)
+TrainingScripts.Font = Enum.Font.SourceSans
+TrainingScripts.Text = "Train Scripts"
+TrainingScripts.TextColor3 = Color3.fromRGB(0, 0, 255)
+TrainingScripts.TextSize = 34.000
+TrainingScripts.TextWrapped = true
+TrainingScripts.MouseButton1Down:connect(function()
+	Logo.Visible = false
+	CloseGui.Visible = false
+	TrainScripts.Visible = true
+	About.Visible = false
+	PlayerScripts_2.Visible = false
+	AdminOnly_2.Visible = false
+end)
+
+Adminpage.Name = "Admin page"
+Adminpage.Parent = Gui
+Adminpage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Adminpage.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Adminpage.BorderSizePixel = 2
+Adminpage.Position = UDim2.new(0.00761353597, 0, 0.220561847, 0)
+Adminpage.Size = UDim2.new(0, 104, 0, 73)
+Adminpage.Font = Enum.Font.SourceSans
+Adminpage.Text = " Admin Scripts"
+Adminpage.TextColor3 = Color3.fromRGB(0, 0, 255)
+Adminpage.TextSize = 34.000
+Adminpage.TextWrapped = true
+Adminpage.MouseButton1Down:connect(function()
+	AdminScriptsGUi.Visible = true 
+	Logo.Visible = false
+	CloseGui.Visible = false
+	About.Visible = false
+	PlayerScripts_2.Visible = false
+	TrainScripts.Visible = false
+	AdminOnly_2.Visible = false
+end)
+
+PlayerScripts.Name = "Player Scripts"
+PlayerScripts.Parent = Gui
+PlayerScripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayerScripts.BorderColor3 = Color3.fromRGB(0, 0, 255)
+PlayerScripts.BorderSizePixel = 2
+PlayerScripts.Position = UDim2.new(0.00908845384, 0, 0.419229388, 0)
+PlayerScripts.Size = UDim2.new(0, 104, 0, 73)
+PlayerScripts.Font = Enum.Font.SourceSans
+PlayerScripts.Text = "Player Scripts"
+PlayerScripts.TextColor3 = Color3.fromRGB(0, 0, 255)
+PlayerScripts.TextSize = 34.000
+PlayerScripts.TextWrapped = true
+PlayerScripts.MouseButton1Down:connect(function()
+	PlayerScripts_2.Visible = true 
+	Logo.Visible = false
+	CloseGui.Visible = false
+	TrainScripts.Visible = false
+	AdminScriptsGUi.Visible = false
+	About.Visible = false
+	AdminOnly_2.Visible = false
+end)
+
+AdminScriptsGUi.Name = "Admin Scripts GUi"
+AdminScriptsGUi.Parent = Gui
+AdminScriptsGUi.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdminScriptsGUi.BorderColor3 = Color3.fromRGB(0, 0, 255)
+AdminScriptsGUi.Position = UDim2.new(0.162480801, 0, 0, 0)
+AdminScriptsGUi.Size = UDim2.new(0, 567, 0, 466)
+AdminScriptsGUi.Visible = false
+
+CMDX.Name = "CMD-X"
+CMDX.Parent = AdminScriptsGUi
+CMDX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CMDX.BorderColor3 = Color3.fromRGB(0, 0, 255)
+CMDX.BorderSizePixel = 2
+CMDX.Position = UDim2.new(0.0344202891, 0, 0.097156398, 0)
+CMDX.Size = UDim2.new(0, 161, 0, 78)
+CMDX.Font = Enum.Font.SourceSans
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(0, 0, 255)
+CMDX.TextSize = 42.000
+
+InfYield.Name = "Inf Yield"
+InfYield.Parent = AdminScriptsGUi
+InfYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfYield.BorderColor3 = Color3.fromRGB(0, 0, 255)
+InfYield.BorderSizePixel = 2
+InfYield.Position = UDim2.new(0.353260875, 0, 0.097156398, 0)
+InfYield.Size = UDim2.new(0, 161, 0, 78)
+InfYield.Font = Enum.Font.SourceSans
+InfYield.Text = "Inf Yield"
+InfYield.TextColor3 = Color3.fromRGB(0, 0, 255)
+InfYield.TextSize = 42.000
+InfYield.TextWrapped = true
+
+Reviz.Name = "Reviz"
+Reviz.Parent = AdminScriptsGUi
+Reviz.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Reviz.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Reviz.BorderSizePixel = 2
+Reviz.Position = UDim2.new(0.679347873, 0, 0.097156398, 0)
+Reviz.Size = UDim2.new(0, 161, 0, 78)
+Reviz.Font = Enum.Font.SourceSans
+Reviz.Text = "Reviz"
+Reviz.TextColor3 = Color3.fromRGB(0, 0, 255)
+Reviz.TextSize = 42.000
+
+FatestAdmin.Name = "Fatest Admin"
+FatestAdmin.Parent = AdminScriptsGUi
+FatestAdmin.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FatestAdmin.BorderColor3 = Color3.fromRGB(0, 0, 255)
+FatestAdmin.BorderSizePixel = 2
+FatestAdmin.Position = UDim2.new(0.0344203115, 0, 0.331753552, 0)
+FatestAdmin.Size = UDim2.new(0, 161, 0, 78)
+FatestAdmin.Font = Enum.Font.SourceSans
+FatestAdmin.Text = "FastesAdmin"
+FatestAdmin.TextColor3 = Color3.fromRGB(0, 0, 255)
+FatestAdmin.TextSize = 38.000
+
+Cbring.Name = "Cbring"
+Cbring.Parent = AdminScriptsGUi
+Cbring.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Cbring.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Cbring.BorderSizePixel = 2
+Cbring.Position = UDim2.new(0.353260875, 0, 0.331753552, 0)
+Cbring.Size = UDim2.new(0, 161, 0, 78)
+Cbring.Font = Enum.Font.SourceSans
+Cbring.Text = "Cbring"
+Cbring.TextColor3 = Color3.fromRGB(0, 0, 255)
+Cbring.TextSize = 42.000
+Cbring.TextWrapped = true
+
+CloseAdmin.Name = "Close Admin"
+CloseAdmin.Parent = AdminScriptsGUi
+CloseAdmin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseAdmin.BackgroundTransparency = 1.000
+CloseAdmin.Position = UDim2.new(0.947747767, 0, 0, 0)
+CloseAdmin.Size = UDim2.new(0, 28, 0, 29)
+CloseAdmin.Font = Enum.Font.SourceSans
+CloseAdmin.Text = "x"
+CloseAdmin.TextColor3 = Color3.fromRGB(170, 255, 255)
+CloseAdmin.TextSize = 32.000
+CloseAdmin.TextStrokeColor3 = Color3.fromRGB(170, 255, 255)
+CloseAdmin.MouseButton1Down:connect(function()
+	AdminScriptsGUi.Visible = false 
+	Logo.Visible = true 
+	CloseGui.Visible = true
+end)
+
+PlayerScripts_2.Name = "Player Scripts"
+PlayerScripts_2.Parent = Gui
+PlayerScripts_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayerScripts_2.BorderColor3 = Color3.fromRGB(0, 0, 255)
+PlayerScripts_2.BorderSizePixel = 2
+PlayerScripts_2.Position = UDim2.new(0.181197807, 0, 0, 0)
+PlayerScripts_2.Size = UDim2.new(0, 555, 0, 466)
+PlayerScripts_2.Visible = false
+
+Rejoin.Name = "Rejoin"
+Rejoin.Parent = PlayerScripts_2
+Rejoin.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rejoin.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Rejoin.BorderSizePixel = 2
+Rejoin.Position = UDim2.new(0.353260875, 0, 0.0282727946, 0)
+Rejoin.Size = UDim2.new(0, 161, 0, 57)
+Rejoin.Font = Enum.Font.SourceSans
+Rejoin.Text = "Rejoin"
+Rejoin.TextColor3 = Color3.fromRGB(0, 0, 255)
+Rejoin.TextSize = 42.000
+
+RepScript.Name = "Rep Script"
+RepScript.Parent = PlayerScripts_2
+RepScript.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RepScript.BorderColor3 = Color3.fromRGB(0, 0, 255)
+RepScript.BorderSizePixel = 2
+RepScript.Position = UDim2.new(0.353260875, 0, 0.20166941, 0)
+RepScript.Size = UDim2.new(0, 161, 0, 57)
+RepScript.Font = Enum.Font.SourceSans
+RepScript.Text = "Rep Script"
+RepScript.TextColor3 = Color3.fromRGB(0, 0, 255)
+RepScript.TextSize = 38.000
+RepScript.TextWrapped = true
+
+StopAutoAttack.Name = "Stop Auto Attack"
+StopAutoAttack.Parent = PlayerScripts_2
+StopAutoAttack.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+StopAutoAttack.BorderColor3 = Color3.fromRGB(0, 0, 255)
+StopAutoAttack.BorderSizePixel = 2
+StopAutoAttack.Position = UDim2.new(0.0235507488, 0, 0.372690856, 0)
+StopAutoAttack.Size = UDim2.new(0, 161, 0, 56)
+StopAutoAttack.Font = Enum.Font.SourceSans
+StopAutoAttack.Text = "Stop  Attack"
+StopAutoAttack.TextColor3 = Color3.fromRGB(0, 0, 255)
+StopAutoAttack.TextSize = 38.000
+StopAutoAttack.TextWrapped = true
+
+AutoAttack.Name = "Auto Attack"
+AutoAttack.Parent = PlayerScripts_2
+AutoAttack.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AutoAttack.BorderColor3 = Color3.fromRGB(0, 0, 255)
+AutoAttack.BorderSizePixel = 2
+AutoAttack.Position = UDim2.new(0.0235507488, 0, 0.201669469, 0)
+AutoAttack.Size = UDim2.new(0, 161, 0, 57)
+AutoAttack.Font = Enum.Font.SourceSans
+AutoAttack.Text = "Auto Attack"
+AutoAttack.TextColor3 = Color3.fromRGB(0, 0, 255)
+AutoAttack.TextSize = 38.000
+
+StopPPALL.Name = "Stop PP ALL"
+StopPPALL.Parent = PlayerScripts_2
+StopPPALL.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+StopPPALL.BorderColor3 = Color3.fromRGB(0, 0, 255)
+StopPPALL.BorderSizePixel = 2
+StopPPALL.Position = UDim2.new(0.353260875, 0, 0.372690886, 0)
+StopPPALL.Size = UDim2.new(0, 161, 0, 56)
+StopPPALL.Font = Enum.Font.SourceSans
+StopPPALL.Text = "Stop PP All"
+StopPPALL.TextColor3 = Color3.fromRGB(0, 0, 255)
+StopPPALL.TextSize = 42.000
+
+PPALL.Name = "PP ALL"
+PPALL.Parent = PlayerScripts_2
+PPALL.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PPALL.BorderColor3 = Color3.fromRGB(0, 0, 255)
+PPALL.BorderSizePixel = 2
+PPALL.Position = UDim2.new(0.679347813, 0, 0.0282727946, 0)
+PPALL.Size = UDim2.new(0, 161, 0, 57)
+PPALL.Font = Enum.Font.SourceSans
+PPALL.Text = "PP All"
+PPALL.TextColor3 = Color3.fromRGB(0, 0, 255)
+PPALL.TextSize = 42.000
+
+LoopReap.Name = "Loop Reap"
+LoopReap.Parent = PlayerScripts_2
+LoopReap.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LoopReap.BorderColor3 = Color3.fromRGB(0, 0, 255)
+LoopReap.BorderSizePixel = 2
+LoopReap.Position = UDim2.new(0.0235507246, 0, 0.0285036322, 0)
+LoopReap.Size = UDim2.new(0, 161, 0, 57)
+LoopReap.Font = Enum.Font.SourceSans
+LoopReap.Text = "Loop Reap"
+LoopReap.TextColor3 = Color3.fromRGB(0, 0, 255)
+LoopReap.TextSize = 42.000
+
+DestroyGui.Name = "Destroy Gui"
+DestroyGui.Parent = PlayerScripts_2
+DestroyGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DestroyGui.BorderColor3 = Color3.fromRGB(0, 0, 255)
+DestroyGui.BorderSizePixel = 2
+DestroyGui.Position = UDim2.new(0.679347813, 0, 0.199294209, 0)
+DestroyGui.Size = UDim2.new(0, 161, 0, 58)
+DestroyGui.Font = Enum.Font.SourceSans
+DestroyGui.Text = "Destroy Gui"
+DestroyGui.TextColor3 = Color3.fromRGB(0, 0, 255)
+DestroyGui.TextSize = 38.000
+DestroyGui.MouseButton1Down:connect(function()
+	Gui.Visible = false
+	Frame.Visible = false
+	Open.Visible = false
+end)
+
+StopLoopReap.Name = "Stop Loop Reap"
+StopLoopReap.Parent = PlayerScripts_2
+StopLoopReap.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+StopLoopReap.BorderColor3 = Color3.fromRGB(0, 0, 255)
+StopLoopReap.BorderSizePixel = 2
+StopLoopReap.Position = UDim2.new(0.679347813, 0, 0.372690737, 0)
+StopLoopReap.Size = UDim2.new(0, 161, 0, 56)
+StopLoopReap.Font = Enum.Font.SourceSans
+StopLoopReap.Text = "Stop Loop Reap"
+StopLoopReap.TextColor3 = Color3.fromRGB(0, 0, 255)
+StopLoopReap.TextScaled = true
+StopLoopReap.TextSize = 38.000
+StopLoopReap.TextWrapped = true
+
+NameOfPlayer.Name = "NameOfPlayer"
+NameOfPlayer.Parent = PlayerScripts_2
+NameOfPlayer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NameOfPlayer.BorderColor3 = Color3.fromRGB(0, 0, 255)
+NameOfPlayer.BorderSizePixel = 2
+NameOfPlayer.Position = UDim2.new(0.0235507246, 0, 0.902382016, 0)
+NameOfPlayer.Size = UDim2.new(0, 523, 0, 34)
+NameOfPlayer.Font = Enum.Font.SourceSans
+NameOfPlayer.PlaceholderText = "NameOfPlayer"
+NameOfPlayer.Text = ""
+NameOfPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameOfPlayer.TextSize = 29.000
+NameOfPlayer.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+RepScript_2.Name = "Rep Script"
+RepScript_2.Parent = PlayerScripts_2
+RepScript_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RepScript_2.BorderColor3 = Color3.fromRGB(0, 0, 255)
+RepScript_2.BorderSizePixel = 2
+RepScript_2.Position = UDim2.new(0.353260875, 0, 0.53896153, 0)
+RepScript_2.Size = UDim2.new(0, 161, 0, 56)
+RepScript_2.Font = Enum.Font.SourceSans
+RepScript_2.Text = "Stop Loop HellFire"
+RepScript_2.TextColor3 = Color3.fromRGB(0, 0, 255)
+RepScript_2.TextScaled = true
+RepScript_2.TextSize = 38.000
+RepScript_2.TextWrapped = true
+
+LoopHellFire.Name = "Loop HellFire"
+LoopHellFire.Parent = PlayerScripts_2
+LoopHellFire.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LoopHellFire.BorderColor3 = Color3.fromRGB(0, 0, 255)
+LoopHellFire.BorderSizePixel = 2
+LoopHellFire.Position = UDim2.new(0.0235507488, 0, 0.538961589, 0)
+LoopHellFire.Size = UDim2.new(0, 161, 0, 56)
+LoopHellFire.Font = Enum.Font.SourceSans
+LoopHellFire.Text = "Loop HellFire"
+LoopHellFire.TextColor3 = Color3.fromRGB(0, 0, 255)
+LoopHellFire.TextScaled = true
+LoopHellFire.TextSize = 38.000
+LoopHellFire.TextWrapped = true
+
+SpamVoid.Name = "Spam Void"
+SpamVoid.Parent = PlayerScripts_2
+SpamVoid.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SpamVoid.BorderColor3 = Color3.fromRGB(0, 0, 255)
+SpamVoid.BorderSizePixel = 2
+SpamVoid.Position = UDim2.new(0.679347813, 0, 0.53896153, 0)
+SpamVoid.Size = UDim2.new(0, 161, 0, 56)
+SpamVoid.Font = Enum.Font.SourceSans
+SpamVoid.Text = "Spam Void"
+SpamVoid.TextColor3 = Color3.fromRGB(0, 0, 255)
+SpamVoid.TextSize = 38.000
+SpamVoid.TextWrapped = true
+
+StopRespawn.Name = "Stop Respawn"
+StopRespawn.Parent = PlayerScripts_2
+StopRespawn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+StopRespawn.BorderColor3 = Color3.fromRGB(0, 0, 255)
+StopRespawn.BorderSizePixel = 2
+StopRespawn.Position = UDim2.new(0.353260875, 0, 0.71473372, 0)
+StopRespawn.Size = UDim2.new(0, 161, 0, 56)
+StopRespawn.Font = Enum.Font.SourceSans
+StopRespawn.Text = "Stop Respawn"
+StopRespawn.TextColor3 = Color3.fromRGB(0, 0, 255)
+StopRespawn.TextScaled = true
+StopRespawn.TextSize = 38.000
+StopRespawn.TextWrapped = true
+
+DestroyGui_2.Name = "Destroy Gui"
+DestroyGui_2.Parent = PlayerScripts_2
+DestroyGui_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DestroyGui_2.BorderColor3 = Color3.fromRGB(0, 0, 255)
+DestroyGui_2.BorderSizePixel = 2
+DestroyGui_2.Position = UDim2.new(0.0235507488, 0, 0.71473366, 0)
+DestroyGui_2.Size = UDim2.new(0, 161, 0, 56)
+DestroyGui_2.Font = Enum.Font.SourceSans
+DestroyGui_2.Text = "Instant Respawn"
+DestroyGui_2.TextColor3 = Color3.fromRGB(0, 0, 255)
+DestroyGui_2.TextScaled = true
+DestroyGui_2.TextSize = 38.000
+DestroyGui_2.TextWrapped = true
+
+F1Respawn.Name = "F1 Respawn"
+F1Respawn.Parent = PlayerScripts_2
+F1Respawn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+F1Respawn.BorderColor3 = Color3.fromRGB(0, 0, 255)
+F1Respawn.BorderSizePixel = 2
+F1Respawn.Position = UDim2.new(0.679347813, 0, 0.71473372, 0)
+F1Respawn.Size = UDim2.new(0, 161, 0, 56)
+F1Respawn.Font = Enum.Font.SourceSans
+F1Respawn.Text = "F1 Respawn"
+F1Respawn.TextColor3 = Color3.fromRGB(0, 0, 255)
+F1Respawn.TextSize = 38.000
+
+ClosePlayer.Name = "Close Player"
+ClosePlayer.Parent = PlayerScripts_2
+ClosePlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ClosePlayer.BackgroundTransparency = 1.000
+ClosePlayer.Position = UDim2.new(0.969486833, 0, -0.0166270789, 0)
+ClosePlayer.Size = UDim2.new(0, 22, 0, 29)
+ClosePlayer.Font = Enum.Font.SourceSans
+ClosePlayer.Text = "x"
+ClosePlayer.TextColor3 = Color3.fromRGB(170, 255, 255)
+ClosePlayer.TextSize = 32.000
+ClosePlayer.TextStrokeColor3 = Color3.fromRGB(170, 255, 255)
+ClosePlayer.MouseButton1Down:connect(function()
+	PlayerScripts_2.Visible = false 
+	Logo.Visible = true 
+	CloseGui.Visible = true
+end)
+
+TrainScripts.Name = "Train Scripts"
+TrainScripts.Parent = Gui
+TrainScripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TrainScripts.BorderColor3 = Color3.fromRGB(0, 0, 255)
+TrainScripts.BorderSizePixel = 2
+TrainScripts.Position = UDim2.new(0.181197807, 0, 0, 0)
+TrainScripts.Size = UDim2.new(0, 555, 0, 466)
+TrainScripts.Visible = false
+
+Split.Name = "Split"
+Split.Parent = TrainScripts
+Split.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Split.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Split.BorderSizePixel = 2
+Split.Position = UDim2.new(0.0326086953, 0, 0.0783848017, 0)
+Split.Size = UDim2.new(0, 152, 0, 73)
+Split.Font = Enum.Font.SourceSans
+Split.Text = "Split"
+Split.TextColor3 = Color3.fromRGB(0, 0, 255)
+Split.TextSize = 38.000
+
+BlackHub.Name = "Black Hub "
+BlackHub.Parent = TrainScripts
+BlackHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BlackHub.BorderColor3 = Color3.fromRGB(0, 0, 255)
+BlackHub.BorderSizePixel = 2
+BlackHub.Position = UDim2.new(0.362318844, 0, 0.0783848017, 0)
+BlackHub.Size = UDim2.new(0, 152, 0, 73)
+BlackHub.Font = Enum.Font.SourceSans
+BlackHub.Text = "Black Hub"
+BlackHub.TextColor3 = Color3.fromRGB(0, 0, 255)
+BlackHub.TextSize = 38.000
+
+ComingSoon.Name = "Coming Soon"
+ComingSoon.Parent = TrainScripts
+ComingSoon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon.BorderColor3 = Color3.fromRGB(0, 0, 255)
+ComingSoon.BorderSizePixel = 2
+ComingSoon.Position = UDim2.new(0.0326086953, 0, 0.346793413, 0)
+ComingSoon.Size = UDim2.new(0, 491, 0, 72)
+ComingSoon.Font = Enum.Font.SourceSans
+ComingSoon.Text = "ComingSoon"
+ComingSoon.TextColor3 = Color3.fromRGB(0, 0, 255)
+ComingSoon.TextSize = 42.000
+
+Nothing.Name = "Nothing"
+Nothing.Parent = TrainScripts
+Nothing.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Nothing.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Nothing.BorderSizePixel = 2
+Nothing.Position = UDim2.new(0.0326086953, 0, 0.517814636, 0)
+Nothing.Size = UDim2.new(0, 491, 0, 166)
+Nothing.Font = Enum.Font.SourceSans
+Nothing.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nothing.TextSize = 14.000
+
+FastFist.Name = "Fast Fist"
+FastFist.Parent = TrainScripts
+FastFist.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FastFist.BorderColor3 = Color3.fromRGB(0, 0, 255)
+FastFist.BorderSizePixel = 2
+FastFist.Position = UDim2.new(0.0579710156, 0, 0.546318352, 0)
+FastFist.Size = UDim2.new(0, 463, 0, 61)
+FastFist.Font = Enum.Font.SourceSans
+FastFist.Text = "Fast Farm Fist"
+FastFist.TextColor3 = Color3.fromRGB(0, 0, 255)
+FastFist.TextSize = 38.000
+
+FastBt.Name = "Fast Bt"
+FastBt.Parent = TrainScripts
+FastBt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FastBt.BorderColor3 = Color3.fromRGB(0, 0, 255)
+FastBt.BorderSizePixel = 2
+FastBt.Position = UDim2.new(0.0579710156, 0, 0.714964449, 0)
+FastBt.Size = UDim2.new(0, 463, 0, 61)
+FastBt.Font = Enum.Font.SourceSans
+FastBt.Text = "Fast Farm Bt"
+FastBt.TextColor3 = Color3.fromRGB(0, 0, 255)
+FastBt.TextSize = 38.000
+
+CloseTrain.Name = "Close Train"
+CloseTrain.Parent = TrainScripts
+CloseTrain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseTrain.BackgroundTransparency = 1.000
+CloseTrain.Position = UDim2.new(0.947747767, 0, 0, 0)
+CloseTrain.Size = UDim2.new(0, 28, 0, 29)
+CloseTrain.Font = Enum.Font.SourceSans
+CloseTrain.Text = "x"
+CloseTrain.TextColor3 = Color3.fromRGB(170, 255, 255)
+CloseTrain.TextSize = 32.000
+CloseTrain.TextStrokeColor3 = Color3.fromRGB(170, 255, 255)
+CloseTrain.MouseButton1Down:connect(function()
+	TrainScripts.Visible = false
+	Logo.Visible = true 
+	CloseGui.Visible = true
+end)
+
+CloseGui.Name = "CloseGui"
+CloseGui.Parent = Gui
+CloseGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CloseGui.BackgroundTransparency = 1.000
+CloseGui.Position = UDim2.new(0.966076672, 0, 0, 0)
+CloseGui.Size = UDim2.new(0, 23, 0, 26)
+CloseGui.Font = Enum.Font.SourceSans
+CloseGui.Text = "x"
+CloseGui.TextColor3 = Color3.fromRGB(170, 255, 255)
+CloseGui.TextSize = 32.000
+CloseGui.MouseButton1Down:connect(function()
+	Gui.Visible = false
+	Open.Visible = true 
+end)
+
+
+AdminOnly.Name = "Admin Only"
+AdminOnly.Parent = Gui
+AdminOnly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdminOnly.BorderColor3 = Color3.fromRGB(0, 0, 255)
+AdminOnly.BorderSizePixel = 2
+AdminOnly.Position = UDim2.new(0.00908844732, 0, 0.805888474, 0)
+AdminOnly.Size = UDim2.new(0, 104, 0, 73)
+AdminOnly.Font = Enum.Font.SourceSans
+AdminOnly.Text = "Admin Only"
+AdminOnly.TextColor3 = Color3.fromRGB(0, 0, 255)
+AdminOnly.TextSize = 34.000
+AdminOnly.TextWrapped = true
+AdminOnly.MouseButton1Down:connect(function()
+	CloseGui.Visible = false 
+	Logo.Visible = false 
+	TrainScripts.Visible = false
+	About.Visible = false 
+	AdminOnly_2.Visible = true
+	PlayerScripts.Visible = false
+	AdminScriptsGUi.Visible = false
+	Aboutpage.Visible = true 
+	PlayerScripts.Visible = true 
+	TrainingScripts.Visible = true 
+	if WriteUrName.Text == "slt51perohackeado2"  then
+		PayFor50RBX.Visible = true 
+	elseif WriteUrName.Text == "Ultimet_Frayzer"  then
+		PayFor50RBX.Visible = false
+		ComingSoon_2.Visible = true 
+	elseif WriteUrName.Text == "ROYALM150NINJA"  then
+		PayFor50RBX.Visible = true 
+	elseif WriteUrName.Text == "UnusualIUsername"  then
+		PayFor50RBX.Visible = false
+	elseif WriteUrName.Text == "sacha1456"  then
+		PayFor50RBX.Visible = true 
+	elseif WriteUrName.Text == "GELADS09"  then
+		PayFor50RBX.Visible = true 
+	elseif WriteUrName.Text == "ZeroBrainCe1ls"  then
+		PayFor50RBX.Visible = true 
+	elseif WriteUrName.Text == "xqVerdexityy"  then
+		PayFor50RBX.Visible = true 
+	elseif WriteUrName.Text == "Mr_LumiYtALT"  then
+		PayFor50RBX.Visible = false
+		ComingSoon_2.Visible = true 
+	elseif WriteUrName.Text == "xXxProfesorGhostxXx"  then
+		PayFor50RBX.Visible = false
+		ComingSoon_2.Visible = true 
+	elseif WriteUrName.Text == "ObsidianPheonixx"  then
+		PayFor50RBX.Visible = true 
+	elseif WriteUrName.Text == "DanielworldTester"  then
+		PayFor50RBX.Visible = true 
+	elseif WriteUrName.Text == "YxngCiiber"  then
+		PayFor50RBX.Visible = true 
+	elseif WriteUrName.Text == "mouzov"  then
+		PayFor50RBX.Visible = true
+	elseif WriteUrName.Text == "housinscheme1"  then
+		PayFor50RBX.Visible = true
+	elseif WriteUrName.Text == "FxllenIDemon"  then
+		PayFor50RBX.Visible = false
+		ComingSoon_2.Visible = true
+	end
+	
+end)
+
+AdminOnly_2.Name = "AdminOnly"
+AdminOnly_2.Parent = Gui
+AdminOnly_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdminOnly_2.BorderColor3 = Color3.fromRGB(0, 0, 255)
+AdminOnly_2.BorderSizePixel = 2
+AdminOnly_2.Position = UDim2.new(0.175516218, 0, 0, 0)
+AdminOnly_2.Size = UDim2.new(0, 559, 0, 466)
+AdminOnly_2.Visible = false
+
+FastPP.Name = "FastPP"
+FastPP.Parent = AdminOnly_2
+FastPP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FastPP.BorderColor3 = Color3.fromRGB(0, 0, 255)
+FastPP.BorderSizePixel = 2
+FastPP.Position = UDim2.new(0.075134173, 0, 0.0300429184, 0)
+FastPP.Size = UDim2.new(0, 205, 0, 58)
+FastPP.Font = Enum.Font.SourceSans
+FastPP.Text = "FastBt"
+FastPP.TextColor3 = Color3.fromRGB(0, 0, 127)
+FastPP.TextSize = 32.000
+FastPP.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+
+FastBt_2.Name = "FastBt"
+FastBt_2.Parent = AdminOnly_2
+FastBt_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FastBt_2.BorderColor3 = Color3.fromRGB(0, 0, 255)
+FastBt_2.BorderSizePixel = 2
+FastBt_2.Position = UDim2.new(0.549194992, 0, 0.0300429184, 0)
+FastBt_2.Size = UDim2.new(0, 205, 0, 58)
+FastBt_2.Font = Enum.Font.SourceSans
+FastBt_2.Text = "FastPP"
+FastBt_2.TextColor3 = Color3.fromRGB(0, 0, 127)
+FastBt_2.TextSize = 32.000
+FastBt_2.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+
+BackroundColor.Name = "Backround Color"
+BackroundColor.Parent = AdminOnly_2
+BackroundColor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BackroundColor.BorderColor3 = Color3.fromRGB(0, 0, 255)
+BackroundColor.BorderSizePixel = 2
+BackroundColor.Position = UDim2.new(0.0483005382, 0, 0.221030042, 0)
+BackroundColor.Size = UDim2.new(0, 509, 0, 58)
+BackroundColor.Font = Enum.Font.SourceSans
+BackroundColor.Text = "Backround Colors"
+BackroundColor.TextColor3 = Color3.fromRGB(0, 0, 127)
+BackroundColor.TextSize = 50.000
+BackroundColor.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+
+COLOR.Name = "COLOR"
+COLOR.Parent = AdminOnly_2
+COLOR.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+COLOR.Position = UDim2.new(0.0483005382, 0, 0.418454945, 0)
+COLOR.Size = UDim2.new(0, 57, 0, 50)
+COLOR.Font = Enum.Font.SourceSans
+COLOR.Text = ""
+COLOR.TextColor3 = Color3.fromRGB(0, 0, 0)
+COLOR.TextSize = 14.000
+
+COLOR_2.Name = "COLOR"
+COLOR_2.Parent = AdminOnly_2
+COLOR_2.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
+COLOR_2.Position = UDim2.new(0.207513422, 0, 0.418454945, 0)
+COLOR_2.Size = UDim2.new(0, 57, 0, 50)
+COLOR_2.Font = Enum.Font.SourceSans
+COLOR_2.Text = ""
+COLOR_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+COLOR_2.TextSize = 14.000
+
+COLOR_3.Name = "COLOR"
+COLOR_3.Parent = AdminOnly_2
+COLOR_3.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+COLOR_3.Position = UDim2.new(0.363148481, 0, 0.418454945, 0)
+COLOR_3.Size = UDim2.new(0, 57, 0, 50)
+COLOR_3.Font = Enum.Font.SourceSans
+COLOR_3.Text = ""
+COLOR_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+COLOR_3.TextSize = 14.000
+
+COLOR_4.Name = "COLOR"
+COLOR_4.Parent = AdminOnly_2
+COLOR_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+COLOR_4.Position = UDim2.new(0.50626117, 0, 0.418454945, 0)
+COLOR_4.Size = UDim2.new(0, 57, 0, 50)
+COLOR_4.Font = Enum.Font.SourceSans
+COLOR_4.Text = ""
+COLOR_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+COLOR_4.TextSize = 14.000
+
+COLOR_5.Name = "COLOR"
+COLOR_5.Parent = AdminOnly_2
+COLOR_5.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+COLOR_5.Position = UDim2.new(0.651162803, 0, 0.418454945, 0)
+COLOR_5.Size = UDim2.new(0, 57, 0, 50)
+COLOR_5.Font = Enum.Font.SourceSans
+COLOR_5.Text = ""
+COLOR_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+COLOR_5.TextSize = 14.000
+
+ButtonColor.Name = "Button Color"
+ButtonColor.Parent = AdminOnly_2
+ButtonColor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ButtonColor.BorderColor3 = Color3.fromRGB(0, 0, 255)
+ButtonColor.BorderSizePixel = 2
+ButtonColor.Position = UDim2.new(0.0483005382, 0, 0.575107276, 0)
+ButtonColor.Size = UDim2.new(0, 509, 0, 58)
+ButtonColor.Font = Enum.Font.SourceSans
+ButtonColor.Text = "Button Colors"
+ButtonColor.TextColor3 = Color3.fromRGB(0, 0, 127)
+ButtonColor.TextSize = 50.000
+ButtonColor.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+
+COLOR_6.Name = "COLOR"
+COLOR_6.Parent = AdminOnly_2
+COLOR_6.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+COLOR_6.Position = UDim2.new(0.0483005382, 0, 0.751073003, 0)
+COLOR_6.Size = UDim2.new(0, 57, 0, 50)
+COLOR_6.Font = Enum.Font.SourceSans
+COLOR_6.Text = ""
+COLOR_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+COLOR_6.TextSize = 14.000
+
+COLOR_7.Name = "COLOR"
+COLOR_7.Parent = AdminOnly_2
+COLOR_7.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
+COLOR_7.Position = UDim2.new(0.207513422, 0, 0.751073003, 0)
+COLOR_7.Size = UDim2.new(0, 57, 0, 50)
+COLOR_7.Font = Enum.Font.SourceSans
+COLOR_7.Text = ""
+COLOR_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+COLOR_7.TextSize = 14.000
+
+COLOR_8.Name = "COLOR"
+COLOR_8.Parent = AdminOnly_2
+COLOR_8.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+COLOR_8.Position = UDim2.new(0.363148481, 0, 0.751072943, 0)
+COLOR_8.Size = UDim2.new(0, 57, 0, 50)
+COLOR_8.Font = Enum.Font.SourceSans
+COLOR_8.Text = ""
+COLOR_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+COLOR_8.TextSize = 14.000
+
+COLOR_9.Name = "COLOR"
+COLOR_9.Parent = AdminOnly_2
+COLOR_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+COLOR_9.Position = UDim2.new(0.50626117, 0, 0.748927057, 0)
+COLOR_9.Size = UDim2.new(0, 57, 0, 50)
+COLOR_9.Font = Enum.Font.SourceSans
+COLOR_9.Text = ""
+COLOR_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+COLOR_9.TextSize = 14.000
+
+COLOR_10.Name = "COLOR"
+COLOR_10.Parent = AdminOnly_2
+COLOR_10.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+COLOR_10.Position = UDim2.new(0.651162803, 0, 0.748927057, 0)
+COLOR_10.Size = UDim2.new(0, 57, 0, 50)
+COLOR_10.Font = Enum.Font.SourceSans
+COLOR_10.Text = ""
+COLOR_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+COLOR_10.TextSize = 14.000
+
+PayFor50RBX.Name = "PayFor50RBX"
+PayFor50RBX.Parent = AdminOnly_2
+PayFor50RBX.BackgroundColor3 = Color3.fromRGB(47, 45, 45)
+PayFor50RBX.Size = UDim2.new(0, 559, 0, 465)
+PayFor50RBX.Font = Enum.Font.SourceSansSemibold
+PayFor50RBX.Text = "Admin Only Pay For 50RBX"
+PayFor50RBX.TextColor3 = Color3.fromRGB(255, 255, 255)
+PayFor50RBX.TextSize = 50.000
+PayFor50RBX.TextStrokeTransparency = 0.000
+
+ComingSoon_2.Name = "Coming Soon"
+ComingSoon_2.Parent = AdminOnly_2
+ComingSoon_2.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+ComingSoon_2.BackgroundTransparency = 0.100
+ComingSoon_2.Size = UDim2.new(0, 559, 0, 465)
+ComingSoon_2.Visible = false
+ComingSoon_2.Font = Enum.Font.SourceSans
+ComingSoon_2.Text = "Coming Soon"
+ComingSoon_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon_2.TextSize = 50.000
+ComingSoon_2.TextStrokeTransparency = 0.000*
+	
